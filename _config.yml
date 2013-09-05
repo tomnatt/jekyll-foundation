@@ -1,0 +1,7 @@
+auto: true
+server: true
+markdown: rdiscount
+permalink: /:year/:month/:day/:title
+rdiscount extensions: [smart]
+asset_pipeline:
+  gzip: false             # Default = false
