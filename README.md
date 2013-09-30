@@ -5,9 +5,9 @@ A vanilla jekyll project using the latest version of foundation. Requires
 ruby (and ruby-dev on Ubuntu at least).
 
 Installation
-============
+------------
 
-# Clone to your chosen directory
-# git submodule init
-# git submodule update
-# bundle install
+1. Clone to your chosen directory
+1. git submodule init
+1. git submodule update
+1. bundle install
