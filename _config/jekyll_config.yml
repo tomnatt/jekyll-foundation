@@ -1,3 +1,4 @@
+exclude: [Gemfile, Gemfile.lock, Guardfile, README.md]
 permalink: /:year/:month/:day/:title
 asset_pipeline:
   gzip: false             # Default = false
