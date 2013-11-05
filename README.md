@@ -15,3 +15,7 @@ Installation
 1. http://localhost:4000/
 
 SCSS files are in _assets. You can dig any required Foundation javascript files out of the foundation directory.
+
+To actually build the site from the command line, run:
+
+bundle exec rake
