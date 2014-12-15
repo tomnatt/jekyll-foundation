@@ -5,43 +5,44 @@
 
 @import "_settings.scss";
 
-/* Each individual part of foundation that can be added in */
-@import
-  "../_foundation/scss/foundation/components/accordion",
-  "../_foundation/scss/foundation/components/alert-boxes",
-  "../_foundation/scss/foundation/components/block-grid",
-  "../_foundation/scss/foundation/components/breadcrumbs",
-  "../_foundation/scss/foundation/components/button-groups",
-  "../_foundation/scss/foundation/components/buttons",
-  "../_foundation/scss/foundation/components/clearing",
-  "../_foundation/scss/foundation/components/dropdown",
-  "../_foundation/scss/foundation/components/dropdown-buttons",
-  "../_foundation/scss/foundation/components/flex-video",
-  "../_foundation/scss/foundation/components/forms",
-  "../_foundation/scss/foundation/components/grid",
-  "../_foundation/scss/foundation/components/inline-lists",
-  "../_foundation/scss/foundation/components/joyride",
-  "../_foundation/scss/foundation/components/keystrokes",
-  "../_foundation/scss/foundation/components/labels",
-  "../_foundation/scss/foundation/components/magellan",
-  "../_foundation/scss/foundation/components/orbit",
-  "../_foundation/scss/foundation/components/pagination",
-  "../_foundation/scss/foundation/components/panels",
-  "../_foundation/scss/foundation/components/pricing-tables",
-  "../_foundation/scss/foundation/components/progress-bars",
-  "../_foundation/scss/foundation/components/reveal",
-  "../_foundation/scss/foundation/components/side-nav",
-  "../_foundation/scss/foundation/components/split-buttons",
-  "../_foundation/scss/foundation/components/sub-nav",
-  "../_foundation/scss/foundation/components/switch",
-  "../_foundation/scss/foundation/components/tables",
-  "../_foundation/scss/foundation/components/tabs",
-  "../_foundation/scss/foundation/components/thumbs",
-  "../_foundation/scss/foundation/components/tooltips",
-  "../_foundation/scss/foundation/components/top-bar",
-  "../_foundation/scss/foundation/components/type",
-  "../_foundation/scss/foundation/components/offcanvas",
-  "../_foundation/scss/foundation/components/visibility";
+// Behold, here are all the Foundation components.
+@import "../_foundation/scss/foundation/components/_grid.scss";
+@import "../_foundation/scss/foundation/components/_accordion.scss";
+@import "../_foundation/scss/foundation/components/_alert-boxes.scss";
+@import "../_foundation/scss/foundation/components/_block-grid.scss";
+@import "../_foundation/scss/foundation/components/_breadcrumbs.scss";
+@import "../_foundation/scss/foundation/components/_button-groups.scss";
+@import "../_foundation/scss/foundation/components/_buttons.scss";
+@import "../_foundation/scss/foundation/components/_clearing.scss";
+@import "../_foundation/scss/foundation/components/_dropdown.scss";
+@import "../_foundation/scss/foundation/components/_dropdown-buttons.scss";
+@import "../_foundation/scss/foundation/components/_flex-video.scss";
+@import "../_foundation/scss/foundation/components/_forms.scss";
+@import "../_foundation/scss/foundation/components/_icon-bar.scss";
+@import "../_foundation/scss/foundation/components/_inline-lists.scss";
+@import "../_foundation/scss/foundation/components/_joyride.scss";
+@import "../_foundation/scss/foundation/components/_keystrokes.scss";
+@import "../_foundation/scss/foundation/components/_labels.scss";
+@import "../_foundation/scss/foundation/components/_magellan.scss";
+@import "../_foundation/scss/foundation/components/_orbit.scss";
+@import "../_foundation/scss/foundation/components/_pagination.scss";
+@import "../_foundation/scss/foundation/components/_panels.scss";
+@import "../_foundation/scss/foundation/components/_pricing-tables.scss";
+@import "../_foundation/scss/foundation/components/_progress-bars.scss";
+@import "../_foundation/scss/foundation/components/_range-slider.scss";
+@import "../_foundation/scss/foundation/components/_reveal.scss";
+@import "../_foundation/scss/foundation/components/_side-nav.scss";
+@import "../_foundation/scss/foundation/components/_split-buttons.scss";
+@import "../_foundation/scss/foundation/components/_sub-nav.scss";
+@import "../_foundation/scss/foundation/components/_switches.scss";
+@import "../_foundation/scss/foundation/components/_tables.scss";
+@import "../_foundation/scss/foundation/components/_tabs.scss";
+@import "../_foundation/scss/foundation/components/_thumbs.scss";
+@import "../_foundation/scss/foundation/components/_tooltips.scss";
+@import "../_foundation/scss/foundation/components/_top-bar.scss";
+@import "../_foundation/scss/foundation/components/_type.scss";
+@import "../_foundation/scss/foundation/components/_offcanvas.scss";
+@import "../_foundation/scss/foundation/components/_visibility.scss";
 
 .row h1 {
     color: red;
