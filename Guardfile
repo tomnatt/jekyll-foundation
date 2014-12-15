@@ -1,5 +1,3 @@
-scope group: :development
-
 group :development do
     guard :compass, configuration_file: '_config/compass_config.rb', compile_on_start: true
 
@@ -8,3 +6,5 @@ group :development do
       ignore /^_site/
     end
 end
+
+scope groups: [:development]
