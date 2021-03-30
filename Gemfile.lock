@@ -106,6 +106,7 @@ GEM
 
 PLATFORMS
   ruby
+  x86_64-linux
 
 DEPENDENCIES
   compass
@@ -117,7 +118,7 @@ DEPENDENCIES
   redcarpet
 
 RUBY VERSION
-   ruby 2.3.5p376
+   ruby 2.7.2p137
 
 BUNDLED WITH
-   1.16.1
+   2.2.2
